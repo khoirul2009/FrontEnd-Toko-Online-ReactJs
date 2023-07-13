@@ -1,0 +1,286 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Laptop"
+    },
+    {
+      "id": 2,
+      "nama": "Handphone"
+    },
+    {
+      "id": 3,
+      "nama": "PC"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Asus Core I5",
+      "harga": 10000000,
+      "is_ready": true,
+      "gambar": "laptop-asus.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Acer Core I5",
+      "harga": 14000000,
+      "is_ready": true,
+      "gambar": "laptop-acer.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Lenovo Core I5",
+      "harga": 12000000,
+      "is_ready": true,
+      "gambar": "laptop-lenovo.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Redmi 7",
+      "harga": 1800000,
+      "is_ready": true,
+      "gambar": "redmi-7.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Handphone"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Realme 8",
+      "harga": 1300000,
+      "is_ready": true,
+      "gambar": "realme-8.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Handphone"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Iphone 7",
+      "harga": 2000000,
+      "is_ready": true,
+      "gambar": "iphone-7.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Handphone"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "PC Core i7",
+      "harga": 14000000,
+      "is_ready": true,
+      "gambar": "pc-core-i7.jpg",
+      "category": {
+        "id": 3,
+        "nama": "PC"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "intel nuc core i3",
+      "harga": 5000000,
+      "is_ready": true,
+      "gambar": "intel-nuc.jpg",
+      "category": {
+        "id": 3,
+        "nama": "PC"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "PC Gaming Msi",
+      "harga": 50000000,
+      "is_ready": true,
+      "gambar": "pc-gaming-msi.jpg",
+      "category": {
+        "id": 3,
+        "nama": "PC"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Asus Core i7",
+      "harga": 19000000,
+      "is_ready": true,
+      "gambar": "asus-core-i7.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "L-100",
+      "nama": "Lenovo",
+      "harga": "100000",
+      "is_ready": true,
+      "gambar": "laptop-lenovo.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-100",
+      "nama": "Infinix Inbook X1",
+      "harga": "6000000",
+      "is_ready": true,
+      "gambar": "infinix-x1.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Laptop"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-20",
+      "nama": "Samsung S9",
+      "harga": "29990000",
+      "is_ready": true,
+      "gambar": "samsung.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Handphone"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 10000000,
+      "product": {
+        "id": 1,
+        "kode": "K-01",
+        "nama": "Asus Core I5",
+        "harga": 10000000,
+        "is_ready": true,
+        "gambar": "laptop-asus.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Laptop"
+        }
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 14000000,
+      "product": {
+        "id": 2,
+        "kode": "K-02",
+        "nama": "Acer Core I5",
+        "harga": 14000000,
+        "is_ready": true,
+        "gambar": "laptop-acer.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Laptop"
+        }
+      },
+      "id": 2
+    },
+    {
+      "jumlah": 1,
+      "total_harga": "100000",
+      "product": {
+        "id": 11,
+        "kode": "L-100",
+        "nama": "Lenovo",
+        "harga": "100000",
+        "is_ready": true,
+        "gambar": "laptop-lenovo.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Laptop"
+        }
+      },
+      "id": 3
+    }
+  ],
+  "pesanans": [
+    {
+      "total_bayar": "14000000600000019000000",
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 14000000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "PC Core i7",
+            "harga": 14000000,
+            "is_ready": true,
+            "gambar": "pc-core-i7.jpg",
+            "category": {
+              "id": 3,
+              "nama": "PC"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": "6000000",
+          "product": {
+            "id": 12,
+            "kode": "K-100",
+            "nama": "Infinix Inbook X1",
+            "harga": "6000000",
+            "is_ready": true,
+            "gambar": "infinix-x1.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Laptop"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 19000000,
+          "product": {
+            "id": 10,
+            "kode": "K-10",
+            "nama": "Asus Core i7",
+            "harga": 19000000,
+            "is_ready": true,
+            "gambar": "asus-core-i7.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Laptop"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
